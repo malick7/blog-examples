@@ -16,6 +16,7 @@
       "maxLength": 50,
       "description": "Name of the artist"
     },
+    "numberTest": { "type": "number", "description": "Number at root level", "minimum": 1, "multipleOf": 0.01},
     "description": {
       "type": ["string", "null"],
       "description": "Painting description"
@@ -38,8 +39,8 @@
       "additionalProperties": true,
       "required": ["width",  "height"],
       "properties": {
-        "width": { "type": "number", "description": "Width of the product", "minimum": 1 },
-        "height": { "type": "number", "description": "Height of the product", "minimum": 1 }
+        "width": { "type": "number", "description": "Width of the product", "minimum": 1, "multipleOf": 0.01},
+        "height": { "type": "number", "description": "Height of the product", "minimum": 1, "multipleOf": 0.01}
       }
     }
   }

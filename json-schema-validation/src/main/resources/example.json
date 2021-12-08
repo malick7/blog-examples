@@ -1,10 +1,11 @@
 {
   "name": "Mona Lisa",
-  "artist": "Leonardo da Vinci",
+  "artist": "Leonardo da Vinci 1111112222233333111111111111111122222222222222223333333333333333333",
   "description": null,
+  "numberTest": 53.01231,
   "dimension": {
-    "height": 53.0,
-    "width": 77.0
+    "height": 53.01231,
+    "width": 77.0123
   },
-  "tags": ["oil", "famous"]
+  "tags": ["oil", "famous", "test"]
 }
